@@ -1,0 +1,54 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffe6f0, #fff0f5);
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #d6336c;
+  margin-bottom: 20px;
+}
+
+.quiz-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#pergunta {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #6c1e3f;
+}
+
+#opcoes button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #d6336c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#opcoes button:hover {
+  background-color: #b02555;
+}
+
+#feedback {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+button[onclick="proximaPergunta()"] {
+  margin-top: 20px;
+  background-color: #ff69b4;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trailer do Amor + Quiz 💘</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎬 Trailer do Amor 🎬</h1>
+
+  <div class="trailer-container" id="trailer">
+    <p id="frase-trailer"></p>
+    <button onclick="iniciarQuiz()">Começar o Quiz 💞</button>
+  </div>
+
+  <div class="quiz-container" id="quiz" style="display:none;">
+    <h2>🎮 Quiz do Amor 🎮</h2>
+    <p><strong>Cada resposta certa vale 5 pontos!</strong></p>
+    <p id="pontuacao">Pontuação: 0 pontos</p>
+    <p id="pergunta"></p>
+    <div id="opcoes"></div>
+    <p id="feedback"></p>
+    <button id="botao-proxima" onclick="proximaPergunta()" style="display:none;">Próxima Pergunta ➡️</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
