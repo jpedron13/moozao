@@ -14,7 +14,7 @@ function mostrarFraseTrailer() {
   fraseAtual = (fraseAtual + 1) % frasesTrailer.length;
 }
 
-setInterval(mostrarFraseTrailer, 8000);
+setInterval(mostrarFraseTrailer, 5000);
 mostrarFraseTrailer();
 
 function iniciarQuiz() {
@@ -38,7 +38,7 @@ const perguntas = [
   {
     pergunta: "Qual apelido carinhoso eu te dou? 🐻",
     opcoes: ["Amorzinho", "Vida", "Neném"],
-    resposta: 0
+    resposta: 2
   },
   {
     pergunta: "Qual foi nosso primeiro filme juntos? 🎬",
@@ -108,7 +108,11 @@ function mostrarResultadoFinal() {
     container.innerHTML += `
       <p>🎉 Parabéns! Você realmente me conhece!</p>
       <img src="nos.jpg" alt="Nossa foto" style="width: 100%; border-radius: 10px; margin-top: 15px;" />
-      <p style="margin-top: 15px;">Hoje comemoramos <strong>1 mês juntos</strong>, e cada dia ao seu lado é uma nova razão pra sorrir. Te amo! 💖</p>
+      <p style="margin-top: 15px;">Hoje comemoramos <strong>1 mês juntos</strong>, e cada dia ao seu lado é uma nova razão pra sorrir.
+      faz 1 mes que estamos juntos, 1 mes que me sinto o cara mais amado do mundo, 1 mes de muitas brincadeiras, risadas, alguns choros
+      e com certeza muito amor envolvido, obrigado por ser essa mulher incrivel, que esta sempre sorrindo em meio as dificuldades, obrigado por me inspirar ser uma pessoa
+      melhor todos os dias, mal posso esperar pra estar junto contigo novamente, pra poder te abraçar, te beijar e claro, te pertubar né kkkkk se eu nao fizer isso,
+      nao estou cumprindo meu papel de namorado, TE AMO MUITO SUA LINDA.  TE AMOO! 💖</p>
     `;
   } else {
     container.innerHTML += `
